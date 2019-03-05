@@ -1,0 +1,17 @@
+## Deli Counter Simulator
+Kathleen Law
+
+This is a simple program which simulates a deli counter interaction.
+With a relational database created and manipulated with SQL, customer information,
+as well as deli product information, is stored. In order to use all
+of this data to mimic the deli environment, I implemented a Java program to
+print sample dialogue for each customer order, specifying what product they
+want and how much the final order would cost, given the desired weight of the
+product.
+
+This project contains 3 main files. The "src" folder contains the Java program file.
+"Law_DeliCounter.db" is the relational database file, with all of the data needed for
+the simulator to run properly. Finally, the "sqlite-jdbc-3.23.1.jar" file is the JDBC
+driver, which is a downloadable API that allows Java to connect with SQL databases.
+The Java program is unable to reach my database without this driver in place, and thus
+is included in this project as well.
